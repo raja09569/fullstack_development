@@ -21,8 +21,11 @@ shell.mkdir(projectName);
 
 // Copy files to release dir
 shell.rm('-rf', projectName+'/*');
-shell.cp('-R', 'client/', projectName+'/');
-shell.cp('-R', 'server/', projectName+'/');
+// shell.cp('-R', 'client/', projectName+'/');
+// shell.cp('-R', 'server/', projectName+'/');
+shell.exec("git init");
+shell.exec("git remote add origin https://github.com/raja09569/fullstack_development");
+shell.exec("git pull origin master");
 
 //Change direcotry
 shell.cd(projectName);
