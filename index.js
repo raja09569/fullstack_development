@@ -30,6 +30,9 @@ shell.exec("npm set init.author.name 'Rajashekar Makam'");
 shell.exec("npm set init.license 'MIT'");
 shell.exec("npm init -y");
 
+//Creating React project
+
+
 
 /* const questions = [{
         type: "input",
