@@ -4,7 +4,11 @@ var shell = require('shelljs');
 
 // slice argv as we don't need the forst two elements (in this case)
 const args = process.argv.slice(2, process.argv.length);
-console.log(args);
+// console.log(args);
+if(args.length <= 0) {
+    shell.echo('Sorry, this script requires Atleast one Argument');
+    shell.exit(1);
+}
 const projectName = args[0];
 
 if (!shell.which('git')) {
