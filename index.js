@@ -23,6 +23,10 @@ shell.mkdir(projectName);
 shell.rm('-rf', projectName+'/*');
 // shell.cp('-R', 'client/', projectName+'/');
 // shell.cp('-R', 'server/', projectName+'/');
+
+//Change direcotry
+shell.cd(projectName);
+
 shell.exec("git init");
 shell.exec("git remote add origin https://github.com/raja09569/fullstack_development");
 shell.exec("git pull origin master");
@@ -31,10 +35,10 @@ shell.exec("git pull origin master");
 shell.cd(projectName);
 
 //Create package.json file with project name
-shell.exec("npm set init.author.email 'rajashekar0569@gmail.com'");
-shell.exec("npm set init.author.name 'Rajashekar Makam'");
-shell.exec("npm set init.license 'MIT'");
-shell.exec("npm init -y");
+// shell.exec("npm set init.author.email 'rajashekar0569@gmail.com'");
+// shell.exec("npm set init.author.name 'Rajashekar Makam'");
+// shell.exec("npm set init.license 'MIT'");
+// shell.exec("npm init -y");
 
 //Creating React project
 
