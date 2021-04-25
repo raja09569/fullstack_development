@@ -20,6 +20,9 @@ if (!shell.which('git')) {
 shell.mkdir(projectName);
 
 // Copy files to release dir
+shell.rm('-rf', projectName+'/*');
+shell.cp('-R', 'client/', projectName+'/');
+shell.cp('-R', 'server/', projectName+'/');
 
 //Change direcotry
 shell.cd(projectName);
