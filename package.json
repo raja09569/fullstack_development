@@ -1,19 +1,22 @@
 {
   "name": "create-fullstack-react-nodejs-app",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "run": "concurrently \"cd server && node server.js\" \"cd client && npm start\""
+    "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "React App",
+    "Node JS",
+    "Fullstack Development"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "concurrently": "^6.0.2",
     "inquirer": "^8.0.0",
     "shelljs": "^0.8.4"
-  }
+  },
+  "repository": "https://github.com/raja09569/fullstack_development"
 }
