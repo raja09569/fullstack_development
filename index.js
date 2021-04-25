@@ -32,7 +32,7 @@ shell.exec("git remote add origin https://github.com/raja09569/fullstack_develop
 shell.exec("git pull origin master");
 
 //Change direcotry
-shell.cd(projectName);
+// shell.cd(projectName);
 
 //Create package.json file with project name
 // shell.exec("npm set init.author.email 'rajashekar0569@gmail.com'");
