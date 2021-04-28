@@ -1,6 +1,9 @@
 # Getting Started with Create React NodeJS App
 
 
+Create Fullstack React Nodejs app:
+### `npx git@github.com:raja09569/fullstack_development.git app-name`
+
 ## Available Scripts
 
 In the project directory, you can run:
